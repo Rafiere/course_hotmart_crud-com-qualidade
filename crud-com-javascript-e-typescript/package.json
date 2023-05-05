@@ -1,0 +1,16 @@
+{
+  "name": "crud-com-javascript-e-typescript",
+  "version": "1.0.0",
+  "description": "Criando um CRUD com qualidade.",
+  "main": "crud.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./crud-com-javascript-e-typescript/crud"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
