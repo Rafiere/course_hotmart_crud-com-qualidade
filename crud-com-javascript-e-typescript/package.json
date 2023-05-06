@@ -2,15 +2,20 @@
   "name": "crud-com-javascript-e-typescript",
   "version": "1.0.0",
   "description": "Criando um CRUD com qualidade.",
-  "main": "crud.js",
+  "main": "crud.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./crud-com-javascript-e-typescript/crud"
+    "start:crud": "npx ts-node crud.ts",
+    "dev:crud": "nodemon --ext ts,tsx --exec 'npm run start:crud'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.1.0",
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
   }
 }
